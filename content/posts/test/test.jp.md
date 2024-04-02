@@ -13,3 +13,7 @@ categories = [
 ]
 series = ["Test"]
 +++
+
+日本語テスト
+
+{{< figure src="/images/N90.jpg" width="300px" caption="N90" >}}
