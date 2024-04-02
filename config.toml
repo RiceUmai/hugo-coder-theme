@@ -165,8 +165,9 @@ url = "https://myhugosite.com/index.xml"
 rel = "alternate"
 type = "application/rss+xml"
 
+#=========================
 [languages.en]
-languageName = ":uk:"
+languageName = "en"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -188,32 +189,50 @@ name = "Contact me"
 weight = 5
 url = "contact/"
 
-[languages.pt-br]
-languageName = ":brazil:"
-title = "João Ninguém"
+#=========================
+[languages.ko]
+languageName = "kor"
 
-[languages.pt-br.params]
-author = "João Ninguém"
-info = "Full Stack DevOps e Mágico"
-description = "Sítio pessoal de João Ninguém"
-keywords = "blog,desenvolvedor,pessoal"
-
-[[languages.pt-br.menu.main]]
-name = "Sobre"
+[[languages.ko.menu.main]]
+name = "About"
 weight = 1
 url = "about/"
 
-[[languages.pt-br.menu.main]]
+[[languages.ko.menu.main]]
 name = "Blog"
 weight = 2
 url = "posts/"
 
-[[languages.pt-br.menu.main]]
-name = "Projetos"
+[[languages.ko.menu.main]]
+name = "Projects"
 weight = 3
 url = "projects/"
 
-[[languages.pt-br.menu.main]]
-name = "Contato"
+[[languages.ko.menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"
+
+#=========================
+[languages.jp]
+languageName = "jp"
+
+[[languages.jp.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.jp.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[[languages.jp.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[languages.jp.menu.main]]
+name = "Contact me"
 weight = 5
 url = "contact/"
