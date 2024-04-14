@@ -3,5 +3,3 @@ title = "Projetos"
 slug = "projects"
 +++
 
-
-

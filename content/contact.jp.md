@@ -1,6 +1,7 @@
 +++
-title = "Contato"
+title = "Contact"
 slug = "contact"
+
 +++
 
-Me siga em @joaoninguem.
+連絡先 : lee.freedeveloper@gmail.com
