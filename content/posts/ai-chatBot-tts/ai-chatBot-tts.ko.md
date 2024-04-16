@@ -1,4 +1,3 @@
-```markdown
 +++
 authors = ["lgh"]
 title = "Unity와 ChatGPT, AI TTS 사용"
