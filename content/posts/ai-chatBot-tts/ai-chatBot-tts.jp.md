@@ -2,7 +2,7 @@
 authors = ["lgh"]
 title = "UnityとChatGPT、AI TTSの連携"
 date = "2024-04-14"
-description = "Guide to emoji usage in Hugo"
+description = "Unity上でChatGPTとAI TTSの連携"
 tags = [
     "ai",
     "tts",
