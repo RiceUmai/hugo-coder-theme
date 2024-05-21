@@ -1,6 +1,6 @@
 +++
 authors = ["lgh"]
-title = "Jenkins, Unity, Xcode를 연동해서 자동으로 ios를 빌드하는 법"
+title = "Jenkins, Unity, Xcode를 사용해서 자동빌드 환경 구축"
 date = "2024-05-21"
 description = "Unity프로젝트를 ios로 자동빌드"
 tags = [
@@ -92,21 +92,33 @@ public class ApplicationBuilder
 
 ![xcode-Path](/images/unity-ios-jenkins/unityPath.png)
 
+4. Manage Jenkins -> Credentials -> credentials 정보 추가
+- Username : github 유저명
+- Password : github에서 발행한 Personal access token
+- Id : 인증명 
+ 
+![xcode-Path](/images/unity-ios-jenkins/git-credentials.png)
+
 # jenkins WorkSpace Settings
 1. Dashboard -> New Item -> Freestyle project 선택
-2. Configuration -> Build Build Steps항목에서 Invoke Unity3d Editor를 추가 
+2. Source Code Management -> Git 설정
+
+![xcode-Path](/images/unity-ios-jenkins/git-settings.png)
+
+3. Configuration -> Build Build Steps항목에서 Invoke Unity3d Editor를 추가 
 - Unity3d installation name에 Plugin Settings에서 설정한 unity 선택
 - Editor command line arguments에 커멘드 입력
 
 ```bash
 -quit -batchmode -projectPath ${WORKSPACE} -executeMethod ApplicationBuilder.Build -logFile ${WORKSPACE}/xcodeProject/build.log -output-dir ${WORKSPACE}/xcodeProject
 ```
+
 - ${WORKSPACE}는 jenkins에서 설정한 고유변수 (workspace path)
 - '-executeMethod ApplicationBuilder.Build' 는 unity project에서 Assets/Editor에 배치한 ApplicationBuilder Class내 Build 메소드를 실행하는 명령어
 
 ![xcode-Path](/images/unity-ios-jenkins/InvokeUnity.png)
 
-3. Configuration -> Build Build Steps항목에서 Xcode 추가
+4. Configuration -> Build Build Steps항목에서 Xcode 추가
 - Development Team ID(10 자리 코드) 설정
 - Configuration 항목에 Release 입력
   
@@ -130,7 +142,7 @@ public class ApplicationBuilder
 
 ![xcode-Path](/images/unity-ios-jenkins/AdvancedXcode-buildoptions.png)
 
-4. Save 버튼클릭
+5. Save 버튼클릭
 
 # build 테스트
 
