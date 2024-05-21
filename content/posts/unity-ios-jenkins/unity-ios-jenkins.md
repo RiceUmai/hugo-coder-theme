@@ -116,6 +116,33 @@ public class ApplicationBuilder
 
 ![xcode-Path](/images/unity-ios-jenkins/Xcode-Schema-File.png)
 
+- Generate Archive 설정
+
+![xcode-Path](/images/unity-ios-jenkins/GenerateArchive.png)
+
 - Code signing & OS X keychain options -> Code signing settings 항목에 Automatic Signing 체크
   
+![xcode-Path](/images/unity-ios-jenkins/Automatic-Signing.png)
 
+- Advanced Xcode build options 설정
+- Xcode Project Directory 항목은 Unity에서 생성된 xcode project path
+- Build output directory 항목은 xcode에서 빌드한 결과물 경로
+
+![xcode-Path](/images/unity-ios-jenkins/AdvancedXcode-buildoptions.png)
+
+4. Save 버튼클릭
+
+# build 테스트
+
+1. 생성한 workSpace -> Build Now 버튼 클릭
+
+![xcode-Path](/images/unity-ios-jenkins/workSpace-buildNow.png)
+
+2. build가 성공하면 이하 경로에 ips파일, archive파일이 생성됨
+``` bash
+/Users/{유저명}/.jenkins/workspace/{workSpace명}/builds/xcode/output
+```
+
+``` bash
+/Users/{유저명}/.jenkins/workspace/{workSpace명}/builds/xcode/ips
+```
