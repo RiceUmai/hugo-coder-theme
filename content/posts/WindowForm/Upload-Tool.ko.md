@@ -4,12 +4,12 @@ title = "이미지 업로드 툴"
 date = "2021-04-09"
 description = ""
 tags = [
-    "c#"
+    "cs"
 ]
 categories = [
-    "c#",
+    "cs",
 ]
-series = ["Unity"]
+series = ["cs"]
 +++
 
 # 이미지 업로드 도구(요약)

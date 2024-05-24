@@ -4,12 +4,12 @@ title = "데이터베이스에 저장된 이미지를 얻는 프로그램"
 date = "2021-04-10"
 description = ""
 tags = [
-    "C#"
+    "cs"
 ]
 categories = [
-    "C#",
+    "cs",
 ]
-series = ["C#"]
+series = ["cs"]
 +++
 
 # 데이터베이스에 저장된 이미지를 얻는 프로그램
