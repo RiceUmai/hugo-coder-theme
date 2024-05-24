@@ -4,12 +4,12 @@ title = "Hello_Bullet_Engine"
 date = "2020-02-26"
 description = ""
 tags = [
-    "Unity"
+    "C++"
 ]
 categories = [
-    "Unity",
+    "C++",
 ]
-series = ["Unity"]
+series = ["C++"]
 +++
 
 # Hello_Bullet_Engine
