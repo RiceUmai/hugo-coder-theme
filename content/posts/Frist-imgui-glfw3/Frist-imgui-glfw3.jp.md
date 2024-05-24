@@ -1,7 +1,7 @@
 +++
 authors = ["lgh"]
 title = "Frist-imgui-glfw3"
-date = "2021-01-26"
+date = "2021-01-22"
 description = ""
 tags = [
     "Unity"
@@ -102,6 +102,7 @@ void Line::Draw()
 Grid grid(100, 100);
 grid.setPosition(glm::vec3(0, -2.0f, 0));
 grid.Draw(gridShader, projection, view);
+}
 ```
 
 <div style="page-break-before:always"></div> 
