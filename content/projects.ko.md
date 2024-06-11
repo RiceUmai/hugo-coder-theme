@@ -3,25 +3,20 @@ title = "Projetos"
 slug = "projects"
 +++
 
-+++
-title = "Projects"
-slug = "projects"
-+++
-
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcongibab.github.io%2Fportfolio%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-<table style="width:100%">
-  <tr>
-    <th>言語</th> <th>期間</th> <th><=></th> <th>ツール</th> <th>期間</th>
-  </tr>
-
-  <tr>
-    <td>C#</td> <td>2019.05 ~ 現在</td> <td><=></td> <td>Unity</td> <td>2019.05 ~ 現在</td>
-  </tr>
-</table>
-
-
 # 목차(시간순)
+
+## 9. secondme 앱 계발 참가(Android, iOS)
+* [https://secondme.jp/](https://secondme.jp/)
+
+### 담당
+1, 외부 API를 이용한 계정관리 기능 구현
+2, firebase랑 연계한 선물 받기 기능 구현
+3, ZXing.Net을 사용한 QR코드 생성 및 읽기 기능 구현
+4, Figma로 작성한 UI 디자인을 유니티 UI로 구현
+5, 디버그 및 테스트(QA)
+6, localization을 사용한 Text, Image의 다국어 지원 기능 작업
 
 ## 8. Unity_UdpSample
 {{< youtube fKeTiaLIYA8 >}}

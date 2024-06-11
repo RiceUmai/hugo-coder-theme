@@ -5,18 +5,18 @@ slug = "projects"
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcongibab.github.io%2Fportfolio%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-<table style="width:100%">
-  <tr>
-    <th>言語</th> <th>期間</th> <th><=></th> <th>ツール</th> <th>期間</th>
-  </tr>
-
-  <tr>
-    <td>C#</td> <td>2019.05 ~ 現在</td> <td><=></td> <td>Unity</td> <td>2019.05 ~ 現在</td>
-  </tr>
-</table>
-
-
 # 目次(時間順)
+
+## 9. secondmeアプリ開発参加（Android、iOS）
+* [https://secondme.jp/](https://secondme.jp/)
+
+### 担当
+1. 外部APIを使用したアカウント管理機能の実装
+2. Firebaseと連携したギフト受け取り機能の実装
+3. ZXing.Netを使用したQRコードの生成、読み取り機能の実装
+4. Figmaで作成されたUIデザインをUnity UIへの実装
+5. デバッグ、テスト（QA）
+6. localization을を使用したテキスト、画像の多言語サポート機能の実装
 
 ## 8. Unity_UdpSample
 {{< youtube fKeTiaLIYA8>}}
