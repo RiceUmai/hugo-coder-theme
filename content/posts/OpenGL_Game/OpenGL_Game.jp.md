@@ -41,7 +41,7 @@ FreeType : [https://www.freetype.org/](https://www.freetype.org/)
 [https://learnopengl.com/](https://learnopengl.com/)
 
 ## github URL
-[https://github.com/congibab/OpenGL_Game](https://github.com/congibab/OpenGL_Game)
+[https://github.com/RiceUmai/OpenGL_Game](https://github.com/RiceUmai/OpenGL_Game)
 
 # 制作意図
 学校にはUE4授業がないため独学でチャレンジしました。  

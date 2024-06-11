@@ -38,7 +38,7 @@ series = ["C++"]
 * [https://learnopengl.com/](https://learnopengl.com/)
 
 ## GitHub URL
-* [https://github.com/congibab/OpenGL_Game](https://github.com/congibab/OpenGL_Game)
+* [https://github.com/RiceUmai/OpenGL_Game](https://github.com/RiceUmai/OpenGL_Game)
 
 # 제작 의도
 C++ 기초지식을 배우고싶어서 조사하던중 Learn OpenGL이라는 사이트를 발견해서 해당 사이트의 소스 코드를 참고하면서 만든 첫 번째 C++ 프로그램입니다.

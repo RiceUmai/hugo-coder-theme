@@ -51,7 +51,7 @@ series = ["C++"]
 {{< youtube LPJUOyeQz5w >}}
 
 ## GitHub URL
-[https://github.com/congibab/Hello_Bullet_Engine](https://github.com/congibab/Hello_Bullet_Engine)
+[https://github.com/RiceUmai/Hello_Bullet_Engine](https://github.com/RiceUmai/Hello_Bullet_Engine)
 
 # プログラム実装画面
 ![Desktop View](/images/Hello_Bullet_Engine/GameScene1.gif)

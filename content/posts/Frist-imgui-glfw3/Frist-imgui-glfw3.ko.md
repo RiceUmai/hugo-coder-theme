@@ -39,7 +39,7 @@ Learn OpenGL: [https://learnopengl.com/](https://learnopengl.com/)
 {{< youtube h1-rcwjNfMk >}}
 
 ## GitHub URL
-[https://github.com/congibab/Frist-imgui-glfw3](https://github.com/congibab/Frist-imgui-glfw3)
+[https://github.com/RiceUmai/Frist-imgui-glfw3](https://github.com/RiceUmai/Frist-imgui-glfw3)
 
 ## 목표
 1. Geometry Shader 학습
