@@ -1,6 +1,6 @@
 +++
 authors = ["lgh"]
-title = "Unity上のUDP 소켓 통신 테스트"
+title = "Unity에서의 UDP 소켓 통신 테스트"
 date = "2021-05-11"
 description = ""
 tags = [
